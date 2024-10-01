@@ -1,0 +1,19 @@
+Part 1: SDG Selection and Problem Definition
+SDG Selection:
+
+Let's choose SDG 6: Clean Water and Sanitation. This goal focuses on ensuring the availability and sustainable management of water and sanitation for all.
+Problem Definition:
+
+The specific problem to address is "Improving access to clean drinking water in rural areas". Many rural areas still lack access to clean and safe drinking water, which leads to health issues and affects overall well-being. We can address this issue by analyzing data on water supply infrastructure, water quality reports, and geographical access to clean water.
+Part 2: Database Design
+ERD (Entity-Relationship Diagram): The main entities will be:
+
+Regions: Represents geographical regions (e.g., districts, villages).
+Water_Sources: Details about water sources (e.g., wells, tanks).
+Water_Quality: Water quality testing results for each water source.
+Access_Levels: Information about the population's access to clean water in different regions.
+Key relationships:
+
+One Region can have multiple Water_Sources.
+One Water_Source can have multiple Water_Quality tests.
+One Region can have one Access_Level.
